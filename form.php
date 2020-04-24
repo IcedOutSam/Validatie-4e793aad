@@ -8,8 +8,8 @@
     <form>
     <label for='email'> Enter your email: </label>
     <input action= "<?php
-echo htmlspecialchars($_SERVER["PHP_SELF"]);
-?>" type='email' name='name' id='email' method='post'>
+      echo htmlspecialchars($_SERVER["PHP_SELF"]);
+    ?>" type='email' name='name' id='email' method='post'>
     <input type='submit' value='Submit'>
   </form>
   </body>
